@@ -39,7 +39,7 @@
                 &trans       &trans   &trans   &trans   &trans    &trans   &trans     &kp HOME  &kp PG_DN   &kp PG_UP  &kp END    &trans
                 &trans       &trans   &trans   &trans   &trans    &trans   &trans     &kp LEFT  &kp DOWN    &kp UP     &kp RIGHT  &trans
                 &trans       &trans   &trans   &trans   &trans    &trans   &trans     &trans    &trans      &trans     &trans     &trans
-                &kp KC_PLAY  &trans   &trans   &trans   &mo 3     &kp ESC  &trans     &trans    &trans      &trans     &trans     &trans
+                &kp K_PP     &trans   &trans   &trans   &mo 3     &kp ESC  &trans     &trans    &trans      &trans     &trans     &trans
             >;
         };
         adjust_layer {
