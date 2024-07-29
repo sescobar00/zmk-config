@@ -27,7 +27,7 @@
         lower_layer {
             bindings = <
                 &trans   &trans   &trans   &trans   &trans    &trans   &trans     &trans        &trans        &trans     &trans     &trans
-                &trasns  &kp F1   &kp F2   &kp F3   &kp F4    &trans   &trans     &kp LBRC      &kp RBRC      &kp PIPE   &trans     &trans
+                &trans  &kp F1   &kp F2   &kp F3   &kp F4    &trans   &trans     &kp LBRC      &kp RBRC      &kp PIPE   &trans     &trans
                 &kp DEL  &kp F5   &kp F6   &kp F7   &kp F8    &trans   &trans     &kp KP_MINUS  &kp KP_EQUAL  &kp TILDE  &trans     &trans
                 &trans   &kp F9   &kp F10  &kp F11  &kp F12   &trans   &trans     &kp BSLH      &kp GRAVE     &trans     &trans     &trans
                 &trans   &trans   &trans   &trans   &trans    &trans   &kp RSHFT  &mo 3         &trans        &trans     &trans     &trans
@@ -39,11 +39,10 @@
                 &trans       &trans   &trans   &trans   &trans    &trans   &trans     &kp HOME  &kp PG_DN   &kp PG_UP  &kp END    &trans
                 &trans       &trans   &trans   &trans   &trans    &trans   &trans     &kp LEFT  &kp DOWN    &kp UP     &kp RIGHT  &trans
                 &trans       &trans   &trans   &trans   &trans    &trans   &trans     &trans    &trans      &trans     &trans     &trans
-                &kp KC_PLAY  &trans   &trans   &trans   &trans    &kp ESC  &trans     &trans    &trans      &trans     &trans     &trans
+                &kp KC_PLAY  &trans   &trans   &trans   &mo 3     &kp ESC  &trans     &trans    &trans      &trans     &trans     &trans
             >;
         };
         adjust_layer {
-    
             bindings = <
                 &trans       &trans       &trans       &trans       &trans       &trans       &trans     &trans     &trans     &trans  &trans  &trans
                 &trans       &trans       &trans       &trans       &trans       &trans       &trans     &trans     &trans     &trans  &trans  &trans
