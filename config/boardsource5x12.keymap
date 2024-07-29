@@ -32,7 +32,7 @@
                 &trans   &kp F9   &kp F10  &kp F11  &kp F12   &trans   &trans     &kp BSLH      &kp GRAVE     &trans     &trans     &trans
                 &trans   &trans   &trans   &trans   &trans    &trans   &kp RSHFT  &mo 3         &trans        &trans     &trans     &trans
             >;
-        };x
+        };
         raise_layer {
             bindings = <
                 &trans       &trans   &trans   &trans   &trans    &trans   &trans     &trans    &trans      &trans     &trans     &trans
