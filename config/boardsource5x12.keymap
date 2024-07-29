@@ -20,7 +20,7 @@
                 &kp TAB    &kp Q     &kp W       &kp F    &kp P    &kp G       &kp J       &kp L   &kp U       &kp Y       &kp SEMI     &kp APOS
                 &kp BSPC   &kp A     &kp R       &kp S    &kp T    &kp D       &kp H       &kp N   &kp E       &kp I       &kp O        &kp RET
                 &kp LSHFT  &kp Z     &kp X       &kp C    &kp V    &kp B       &kp K       &kp M   &kp COMMA   &kp DOT     &kp FSLH     &kp RSHFT
-                &kp K_MUTE &none     &kp LALT    &kp LGUI &mo 1    &kp LCTRL   &kp SPACE   &mo 2   &kp RALT    &kp K_APP   &kp K_VOL_DN &kp K_VOL_UP
+                &kp _MUTE &none     &kp LALT    &kp LGUI &mo 1    &kp LCTRL   &kp SPACE   &mo 2   &kp RALT    &kp K_APP   &kp C_VOL_DN &kp C_VOL_UP
             >;
         };
 
@@ -28,9 +28,9 @@
             bindings = <
                 &trans   &trans   &trans   &trans   &trans    &trans   &trans     &trans      &trans      &trans     &trans     &trans
                 &trans   &kp F1   &kp F2   &kp F3   &kp F4    &trans   &trans     &kp LBRC    &kp RBRC    &kp PIPE   &trans     &trans
-                &kp DEL  &kp F5   &kp F6   &kp F7   &kp F8    &trans   &trans     &kp MINUS  &kp EQUAL   &kp TILDE  &trans     &trans
+                &kp DEL  &kp F5   &kp F6   &kp F7   &kp F8    &trans   &trans     &kp MINUS   &kp EQUAL   &kp TILDE  &trans     &trans
                 &trans   &kp F9   &kp F10  &kp F11  &kp F12   &trans   &trans     &kp BSLH    &kp GRAVE   &trans     &trans     &trans
-                &trans   &trans   &trans   &trans   &trans    &trans   &kp RSHFT  &mo 3       &trans      &trans     &trans     &trans
+                &trans   &trans   &trans   &trans   &none     &trans   &kp RSHFT  &mo 3       &trans      &trans     &trans     &trans
             >;
         };
         raise_layer {
@@ -39,7 +39,7 @@
                 &trans       &trans   &trans   &trans   &trans    &trans   &trans     &kp HOME  &kp PG_DN   &kp PG_UP  &kp END    &trans
                 &trans       &trans   &trans   &trans   &trans    &trans   &trans     &kp LEFT  &kp DOWN    &kp UP     &kp RIGHT  &trans
                 &trans       &trans   &trans   &trans   &trans    &trans   &trans     &trans    &trans      &trans     &trans     &trans
-                &kp K_PP     &trans   &trans   &trans   &mo 3     &kp ESC  &trans     &trans    &trans      &trans     &trans     &trans
+                &kp C_PP     &trans   &trans   &trans   &mo 3     &kp ESC  &trans     &none     &trans      &trans     &trans     &trans
             >;
         };
         adjust_layer {
