@@ -15,14 +15,6 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            // ------------------------------------------------------------------------------------------
-            // |  ESC  |  1   |  2   |  3   |  4   |  5   |   6   |  7    |  8   |  9   |   0   | BSPC  |
-            // |  TAB  |  Q   |  W   |  E   |  R   |  T   |   Y   |  U    |  I   |  O   |   P   |  \    |
-            // | SHIFT |  A   |  S   |  D   |  F   |  G   |   H   |  J    |  K   |  L   |   ;   |  '    |/
-            // | CTRL  |  Z   |  X   |  C   |  V   |  B   |   N   |  M    |  ,   |  .   |   /   | ENTER |
-            // |ADJUST | LCTL | LALT | LGUI | LOWR | SPACE| SPACE |  RAIS | LARW | DARW | UARW  | RARW  |
-
-
             bindings = <
                 &kp ESC    &kp N1       &kp N2      &kp N3   &kp N4     &kp N5      &kp N6      &kp N7  &kp N8      &kp N9      &kp N0       &kp CAPS
                 &kp TAB    &kp Q        &kp W       &kp F    &kp P      &kp G       &kp J       &kp L   &kp U       &kp Y       &kp SEMI     &kp APOS
@@ -33,12 +25,6 @@
         };
 
         lower_layer {
-            // -------------------------------------------------------------------------------------------
-            // |  ESC  |  F2  |  F3  |  F4  |  F5  |  F6  |   F7  |  F8   |  F9  | F10  |  F11  |  F12  |
-            // |   ~   |  !   |  @   |  #   |  $   |  %   |   ^   |   &   |  *   |  (   |   )   |  DEL  |
-            // |       |  F1  |  F2  |  F3  |  F4  |  F5  |   F6  |   _   |  +   |  {   |   }   |   |   |
-            // |       |  F7  |  F8  |  F9  |  F10 |  F11 |   F12 | LS(#) |LS(|) |      |       |       |
-            // |       |      |      |      |      |      |       |       | NEXT | Vol- | Vol+ | PLAY   |
             bindings = <
                 &trans   &trans   &trans   &trans   &trans    &trans   &trans     &trans        &trans        &trans     &trans     &trans
                 &trasns  &kp F1   &kp F2   &kp F3   &kp F4    &trans   &trans     &kp LBRC      &kp RBRC      &kp PIPE   &trans     &trans
@@ -47,14 +33,7 @@
                 &trans   &trans   &trans   &trans   &trans    &trans   &kp RSHFT  &mo 3         &trans        &trans     &trans     &trans
             >;
         };
-
         raise_layer {
-            // ------------------------------------------------------------------------------------------
-            // |  ESC  |  F2  |  F3  |  F4  |  F5  |  F6  |  F7   |  F8   |  F9  | F10  |  F11  |  F12  |
-            // |   ~   |  1   |  2   |  3   |  4   |  5   |  6    |   7   |  8   |  9   |   0   |  DEL  |
-            // |  DEL  |  F1  |  F2  |  F3  |  F4  |  F5  |  F6   |   -   |  =   |  [   |   ]   |   \   |
-            // |       |  F7  |  F8  |  F9  |  F10 |  F11 |  F12  |   #   |  |   |      |       |       |
-            // |       |      |      |      |      |      |       |       |       |      |      |       |
             bindings = <
                 &trans       &trans   &trans   &trans   &trans    &trans   &trans     &trans    &trans      &trans     &trans     &trans
                 &trans       &trans   &trans   &trans   &trans    &trans   &trans     &kp HOME  &kp PG_DN   &kp PG_UP  &kp END    &trans
@@ -63,14 +42,8 @@
                 &kp KC_PLAY  &trans   &trans   &trans   &trans    &kp ESC  &trans     &trans    &trans      &trans     &trans     &trans
             >;
         };
-
         adjust_layer {
-            // ------------------------------------------------------------------------------------------
-            // |tog(4)|  F2  |  F3  |  F4  |  F5  |  F6  |  F7  |  F8  |  F9  |  F10 |  F11 |    F12    |
-            // |      |  NA  |  NA  |  NA  |  NA  |  NA  |  NA  |  NA  |  NA  |  NA  |  NA  |LALT(PRTSN)|
-            // |      |  NA  |  NA  |  NA  |  NA  |  NA  |  NA  |  NA  |  NA  |  NA  |  NA  |   PRTSN   |
-            // |      |  NA  |  NA  |  NA  |  NA  |  NA  |  NA  |  NA  |  NA  |  NA  |  NA  |LCTRL(DEL) |
-            // |      |      |      |      |      |BOOTLD|BOOTLD|      |      |      |      |           |
+    
             bindings = <
                 &trans       &trans       &trans       &trans       &trans       &trans       &trans     &trans     &trans     &trans  &trans  &trans
                 &trans       &trans       &trans       &trans       &trans       &trans       &trans     &trans     &trans     &trans  &trans  &trans
